@@ -1,0 +1,53 @@
+
+.about-grid h3{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 2em;
+	margin: 0;
+	text-transform: uppercase;
+	color: #454545;
+}
+
+.about-grid p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6a6a6a;
+	font-size: 0.875em;
+	padding: 5px 0 10px 0;
+	line-height: 1.8em;
+}
+.about-team-right p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6a6a6a;
+	font-size: 0.875em;
+	padding: 0px 0 10px 0;
+	line-height: 1.8em;
+}
+
+.about-team-left img:hover {
+	opacity: 1;
+	-webkit-filter: grayscale(0%);
+	cursor: pointer;
+}
+.about-team-left{
+	float:left;
+	width:25%;
+}
+.about-team-right{
+	float:right;
+	width: 73%;
+}
+
+.about-grids {
+	padding: 10px 0px 20px 50px;
+}
+.center-grid1{
+	margin:0 3%;
+}
+.center-grid1 label:hover {
+	color: #454545;
+}
+.about-grid{
+	width: 31.33%;
+	float: left;
+}

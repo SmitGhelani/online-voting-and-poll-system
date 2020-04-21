@@ -1,0 +1,32 @@
+.center-box ul li a:hover{
+	color:#71D6EA;
+}
+.center-box ul li:before{
+	content:url(../images/marker.png);
+	padding: 10px;
+}
+.center-box ul li a{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: uppercase;
+	color: #ffffff;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.content-box-right-topgrid a:hover{
+	color:#71D6EA;
+}
+.center-box ul li{
+	display: block;
+	padding: 0px 0px 10px 0px;
+}
+.boxs {
+	background: url(../images/box.png);
+	padding: 1.5em 0 1em 0;
+	margin: 40px 0px 0 0;
+}

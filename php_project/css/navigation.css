@@ -1,0 +1,32 @@
+
+.header-nav ul li a{
+	color: #FFF;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1.3em;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: block;
+	padding: 11px 95.5px;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.header-nav li.active> a, .header-nav li> a:hover {
+	color: #ff9900;
+	background: #454545;
+}
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+	.cut{
+		width:90%;
+	}
+	.header-nav ul li a {
+		padding: 10px 50px;
+	}
+	
+}
+.header-nav ul li{
+	display: inline-block;
+	border-left: 1px solid rgba(85, 85, 85, 0.41);
+	float: left;
+}
+.clear{clear:both;}
